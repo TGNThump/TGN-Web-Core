@@ -1,0 +1,151 @@
+.navbar-mobile{
+	display: none;
+}
+
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important
+}
+
+.preload .stream-box{
+	max-height: 0;
+}
+
+.stream-box{
+	max-height: 0;
+
+	overflow: hidden;
+	background: url('http://core.terragaming.co.uk/common/img/banner/twitch_bg.jpg') no-repeat #1B1B1B;
+	background-size: auto;
+	background-position: top center;
+
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: cubic-bezier(.5, .15, .75, .75);
+
+}
+
+@media screen and (min-width: 875px){
+	.stream-box{
+		max-height: 527px;
+	}
+}
+
+@media all and (max-width: @screen-xs-max){
+	.content-box{
+		background-color: #fff;
+		min-height: ~'calc(100% - 100px)';
+	}
+
+	.navbar-tgn .container{
+    width: 100%;
+	}
+
+	.navbar-main{
+		display: none;
+	}
+
+	.navbar-mobile{
+		display: inline-block;
+	}
+
+	.navbar-tgn .navbar-right{
+		display: none;
+	}
+
+	.content-box .container{
+		width: 100%;
+	}
+
+	.footerbar .container{
+		width: 100%;
+	}
+
+  .footerbar .container .sitemap{
+    display: none;
+  }
+
+  .footerbar .container .footer {
+    padding-left: 5px;
+  	padding-right: 5px;
+  }
+
+  .footerbar .container .footer .copyright{
+  	margin-bottom: 9px;
+  }	
+}
+@media all and (min-width: @screen-sm-min) and (max-width: @screen-sm-max){
+	.navbar-tgn .container{
+    width: 100%;
+	}
+
+	.navbar-tgn .navbar-right{
+		display: none;
+	}
+
+	.content-box .container{
+		width: 100%;
+	}
+
+	.footerbar .container{
+		width: 100%;
+	}
+
+  .footerbar .container .sitemap .column h3{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .footerbar .container .sitemap .column ul{
+    padding-left: 4px;
+  }
+
+  .footerbar .container .footer {
+    padding-left: 5px;
+  	padding-right: 5px;
+  }
+}
+
+@media all and (min-width: @screen-md-min) and (max-width: @screen-md-max){
+	.navbar-tgn .container{
+    width: 100%;
+	}
+
+	.content-box .container{
+		width: 100%;
+	}
+
+	.footerbar .container{
+		width: 100%;
+	}
+
+  .footerbar .container .sitemap .column h3{
+      padding-left: 5px;
+    padding-right: 5px;
+  }
+  .footerbar .container .sitemap .column ul{
+      padding-left: 4px;
+  }
+
+  .footerbar .container .footer {
+    padding-left: 5px;
+  	padding-right: 5px;
+  }
+}
+
+@media all and (min-width: @screen-lg-min){
+	.navbar-tgn .container{
+    width: 1170px;
+	}
+
+	.content-box .container{
+		width: 1170px;
+	}
+
+	.footerbar .container{
+		padding: 0px;
+		width: 1170px;
+	}
+}
