@@ -1,0 +1,1 @@
+{"api":"TerraGaming API","version":"0.0.1","stream":"DEV"}
