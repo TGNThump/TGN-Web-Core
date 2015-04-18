@@ -1,1 +1,1 @@
-{"api":"TerraGaming OAuth","version":"1.0.1","stream":"DEV"}
+{"api":"TerraGaming OAuth","version":"0.0.1","stream":"DEV"}
